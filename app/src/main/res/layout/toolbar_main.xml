@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Todo"
+            android:layout_centerInParent="true"
+            android:lines="1"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgFilter"
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_filter_list_24"
+            android:padding="16dp"/>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

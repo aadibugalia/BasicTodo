@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Basic ToDo</string>
+
+    <string name="search_by_title">Search By Title</string>
+    <string name="toast_no_internet">No Internet Available</string>
+    <string name="toast_error_message">Something went wrong</string>
+    <string name="load_more">Load More</string>
+</resources>
